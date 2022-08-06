@@ -1,14 +1,14 @@
 <template>
   <div>
-    <router-view></router-view>
+    Login.vue
   </div>
 </template>
 
 <script>
 export default {
-
+  name: 'my-login'
 }
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
 </style>

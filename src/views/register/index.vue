@@ -1,14 +1,14 @@
 <template>
   <div>
-    <router-view></router-view>
+    Reg.vue
   </div>
 </template>
 
 <script>
 export default {
-
+  name: 'my-register'
 }
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
 </style>
