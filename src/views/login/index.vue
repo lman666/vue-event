@@ -55,7 +55,7 @@ export default {
             this.$message.success(res.message)
             // 提交给mutations把token字符串保存到vuex中
             this.updateToken(res.token)
-            this.$router.push('/layout')
+            this.$router.push('/')
           }
         } else return false
       })
